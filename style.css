@@ -160,3 +160,24 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--color-secondary);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: var(--color-text);
+    border-top: 1px solid var(--color-tertiary);
+    margin-top: auto;
+}
+
+.footer a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
